@@ -15,6 +15,8 @@ header {
     height: 300px;
     display: flex;
     align-items: flex-end;
+    justify-content: flex-start;
+    padding-left: 50px; 
     justify-content: space-between;
     padding: 0 50px;
     background-image: 'images/background.jpg'; 
@@ -30,6 +32,7 @@ header img.headshot {
     border-radius: 50%; /* Circular headshot */
     border: 5px solid white;
     object-fit: cover;
+    margin-right: 20px;
 }
 
 header h1 {
