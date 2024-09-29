@@ -11,16 +11,16 @@ body {
 }
 
 header {
-    background-image: url('images/background.jpg'); /* Add your background image */
+    background-image: url('path-to-your-background-image.jpg'); /* Add your background image */
     background-size: cover;
     background-position: center;
-    height: 250px; 
+    height: 250px; /* Adjust height as needed */
     position: relative;
 }
 
 header img.headshot {
     position: absolute;
-    top: 160px; /* Adjust to align with text */
+    top: 180px; /* Adjust to align with text */
     left: 50px; /* Align on the left side */
     border-radius: 50%; /* Makes headshot circular */
     width: 150px;
