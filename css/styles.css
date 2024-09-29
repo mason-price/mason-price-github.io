@@ -11,22 +11,24 @@ body {
 }
 
 header {
-    background-image: url('images/background.jpg'); /* Background image */
-    background-size: cover;
-    background-position: center;
-    height: 250px; /* Adjust as needed */
     position: relative;
+    height: 300px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     padding: 0 50px;
+    background-image: 'images/background.jpg'; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 4px solid #ddd;
 }
 
 header img.headshot {
     width: 150px;
-    height: auto; /* Prevents stretching */
+    height: 150px;
     border-radius: 50%; /* Circular headshot */
-    border: 4px solid white; /* Optional border */
+    border: 5px solid white;
     object-fit: cover;
 }
 
