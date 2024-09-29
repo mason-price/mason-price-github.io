@@ -14,7 +14,7 @@ header {
     background-image: url('images/background.jpg'); /* Add your background image */
     background-size: cover;
     background-position: center;
-    height: 250px; /* Adjust height as needed */
+    height: 250px; 
     position: relative;
 }
 
@@ -24,7 +24,7 @@ header img.headshot {
     left: 50px; /* Align on the left side */
     border-radius: 50%; /* Makes headshot circular */
     width: 150px;
-    height: 150px;
+    height: 125px;
     object-fit: cover;
     border: 4px solid white; /* Optional border */
 }
