@@ -19,7 +19,7 @@ header {
     padding-left: 50px; 
     justify-content: space-between;
     padding: 0 50px;
-    background-image: 'images/background.jpg'; 
+    background-image: url('images/background.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
