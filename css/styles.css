@@ -1,34 +1,80 @@
+/* Import EB Garamond font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
+
+/* Global styling */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    font-family: 'EB Garamond', serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-header nav ul {
-    list-style-type: none;
+header {
+    background-image: url('path-to-your-background-image.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    height: 250px; /* Adjust height as needed */
+    position: relative;
+}
+
+header img.headshot {
+    position: absolute;
+    top: 180px; /* Adjust to align with text */
+    left: 50px; /* Align on the left side */
+    border-radius: 50%; /* Makes headshot circular */
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid white; /* Optional border */
+}
+
+header h1 {
+    position: absolute;
+    top: 180px;
+    left: 220px; /* Adjust space from the headshot */
+    font-size: 48px;
+    font-weight: 700;
+    color: #2c3e50;
     margin: 0;
-    padding: 12px;
-    background-color: #333;
 }
 
-header nav ul li {
-    display: inline;
-    margin-right: 10px;
+nav {
+    text-align: center;
+    margin-top: 50px; /* Space from headshot */
 }
 
-header nav ul li a {
-    color: white;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px; /* Space between links */
+}
+
+nav ul li a {
+    font-size: 24px;
     text-decoration: none;
+    color: #2c3e50;
+    font-weight: 700;
+    transition: color 0.3s ease;
 }
 
+nav ul li a:hover {
+    color: #2980b9; /* Hover effect */
+}
+
+/* Section styling */
 section {
     padding: 20px;
     max-width: 800px;
-    margin: auto;
+    margin: 50px auto;
+    text-align: center;
 }
 
-h1 {
+h2 {
+    font-size: 32px;
     color: #2c3e50;
 }
