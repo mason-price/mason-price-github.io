@@ -11,47 +11,48 @@ body {
 }
 
 header {
-    background-image: url('images/background.jpg'); /* Add your background image */
+    background-image: url('images/your-background-image.jpg'); /* Background image */
     background-size: cover;
     background-position: center;
-    height: 250px; /* Adjust height as needed */
+    height: 250px; /* Adjust as needed */
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
 }
 
 header img.headshot {
-    position: absolute;
-    top: 180px; /* Adjust to align with text */
-    left: 50px; /* Align on the left side */
-    border-radius: 50%; /* Makes headshot circular */
     width: 150px;
-    height: 150px;
-    object-fit: cover;
+    height: auto; /* Prevents stretching */
+    border-radius: 50%; /* Circular headshot */
     border: 4px solid white; /* Optional border */
+    object-fit: cover;
 }
 
 header h1 {
-    position: absolute;
-    top: 180px;
-    left: 220px; /* Adjust space from the headshot */
     font-size: 48px;
     font-weight: 700;
     color: #2c3e50;
     margin: 0;
+    align-self: flex-start; /* Aligns to top */
+    margin-right: auto; /* Aligns to the left of the page */
 }
 
 nav {
-    text-align: center;
-    margin-top: 50px; /* Space from headshot */
+    align-self: flex-end; /* Aligns the nav to the bottom of the header */
+    margin-left: 30px;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
     display: inline-block;
-    margin: 0 20px; /* Space between links */
+    margin: 0 20px; /* Spacing between links */
 }
 
 nav ul li a {
