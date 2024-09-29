@@ -53,6 +53,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -83,13 +84,4 @@ section {
 h2 {
     font-size: 32px;
     color: #2c3e50;
-}
-
-div.container {
-  text-align: center;
-}
-
-ul.myUL {
-  display: inline-block;
-  text-align: left;
 }
