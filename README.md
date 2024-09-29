@@ -1,1 +1,1 @@
-# mason-price-github.io
+# mason-price.github.io
