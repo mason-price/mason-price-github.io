@@ -39,16 +39,62 @@ header h1 {
     font-size: 48px;
     font-weight: 700;
     color: #2c3e50;
+    margin: 0;
+    align-self: flex-start; /* Aligns to top */
+    margin-right: auto; /* Aligns to the left of the page */
+}
+
+.title-bar {
+    background-color: rgba(255, 255, 255, 1); /* Off-white with some transparency */
+    text-align: left;
+    padding: 20px 0; /* Adjust padding as needed */
+}
+
+.title-bar h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #2c3e50;
     background-color: rgba(255, 255, 255, 1);
     margin: 0;
     align-self: flex-start; /* Aligns to top */
     margin-right: auto; /* Aligns to the left of the page */
 }
 
-nav {
+.nav-bar {
+    background-color: rgba(255, 255, 255, 0.8); /* Off-white with transparency */
+    text-align: center;
+    padding: 10px 0;
     align-self: flex-end; /* Aligns the nav to the bottom of the header */
     margin-left: 30px;
-    background-color: rgba(255, 255, 255, 1);
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    margin: 0 20px; /* Spacing between links */
+}
+
+.nav-bar ul li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.nav-bar ul li a:hover {
+    color: #2980b9; /* Hover effect */
+}
+
+/* nav {
+    align-self: flex-end; /* Aligns the nav to the bottom of the header */
+    margin-left: 30px;
 }
 
 nav ul {
@@ -73,7 +119,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #2980b9; /* Hover effect */
-}
+} */
 
 /* Section styling */
 section {
