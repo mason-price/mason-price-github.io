@@ -39,6 +39,7 @@ header h1 {
     font-size: 48px;
     font-weight: 700;
     color: #2c3e50;
+    background-color: rgba(255, 255, 255, 1);
     margin: 0;
     align-self: flex-start; /* Aligns to top */
     margin-right: auto; /* Aligns to the left of the page */
@@ -47,6 +48,7 @@ header h1 {
 nav {
     align-self: flex-end; /* Aligns the nav to the bottom of the header */
     margin-left: 30px;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 nav ul {
