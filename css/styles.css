@@ -38,7 +38,7 @@ header img.headshot {
 header h1 {
     font-size: 48px;
     font-weight: 700;
-    color: #2c3e50;
+    color: #FFFFFF;
     margin: 0;
     align-self: flex-start; /* Aligns to top */
     margin-right: auto; /* Aligns to the left of the page */
@@ -64,13 +64,13 @@ nav ul li {
 nav ul li a {
     font-size: 24px;
     text-decoration: none;
-    color: #2c3e50;
+    color: #FFFFFF;
     font-weight: 700;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #2980b9; /* Hover effect */
+    color: #FFFDD0; /* Hover effect */
 } 
 
 /* Section styling */
