@@ -94,3 +94,21 @@ ul.myUL {
   display: inline-block;
   text-align: left;
 }
+
+/* Container for the images */
+.image-container {
+    display: flex;           /* Flexbox for side-by-side alignment */
+    justify-content: space-around; /* Optional: space between the images */
+    align-items: center;     /* Vertically center the images if needed */
+}
+
+/* Style for the images */
+.side-image {
+    width: 45%;              /* Set each image width (you can adjust as needed) */
+    height: auto;            /* Maintain aspect ratio */
+    border: 2px solid #ccc;  /* Soft grey border */
+    padding: 5px;            /* Space between the border and image */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds a soft shadow */
+    margin: 10px;            /* Optional: adds space around the images */
+    border-radius: 5px;      /* Optional: rounds the corners of the images */
+}
