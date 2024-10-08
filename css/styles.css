@@ -19,28 +19,11 @@ header {
     padding-left: 50px; 
     justify-content: space-between;
     padding: 0 50px;
-    background-image: url('images/campus.jpg'); 
+    background-image: url('images/background.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-bottom: 4px solid #ddd;
-}
-
-/* Style the title bar with off-white background */
-.title-bar {
-    background-color: rgba(255, 255, 255, 0.8); /* Off-white with some transparency */
-    text-align: left;
-    padding: 20px 0;
-}
-
-/* Style for the title */
-.title-bar h1 {
-    font-size: 48px;
-    font-weight: 700;
-    color: #2c3e50;
-    margin: 0;
-    align-self: flex-start; /* Aligns to top */
-    margin-right: auto; /* Aligns to the left of the page */
 }
 
 header img.headshot {
@@ -61,26 +44,24 @@ header h1 {
     margin-right: auto; /* Aligns to the left of the page */
 }
 
-/* Style the navigation bar with an off-white background */
-.nav-bar {
-    background-color: rgba(255, 255, 255, 0.8); /* Off-white with transparency */
-    text-align: center;
-    padding: 10px 0;
+nav {
+    align-self: flex-end; /* Aligns the nav to the bottom of the header */
+    margin-left: 30px;
 }
 
-/* Style for the navigation links */
-.nav-bar ul {
-    list-style: none;
-    margin: 0;
+nav ul {
+    list-style-type: none;
     padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
-.nav-bar ul li {
+nav ul li {
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 20px; /* Spacing between links */
 }
 
-.nav-bar ul li a { {
+nav ul li a {
     font-size: 24px;
     text-decoration: none;
     color: #2c3e50;
@@ -103,4 +84,11 @@ section {
 h2 {
     font-size: 32px;
     color: #2c3e50;
+}
+div.container {
+  text-align: center;
+}
+ul.myUL {
+  display: inline-block;
+  text-align: left;
 }
